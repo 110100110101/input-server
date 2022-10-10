@@ -1,0 +1,23 @@
+{
+  "name": "input-server",
+  "version": "1.0.0",
+  "description": "Receives the input and sends it to the preferred application",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Jaja Yting",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cron": "^2.0.0",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.2",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@nut-tree/nut-js": "^2.3.0",
+    "cron": "^2.1.0",
+    "express": "^4.18.1"
+  }
+}
